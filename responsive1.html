@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CS50 Web Development</title>
     <style>
-        h1{
-            color: red;
+        @media (min-width: 500px){
+            h1::before{
+                content: "Welcome to CS50!";
+            }
         }
-        h2{
-            color: blue;
+        @media (max-width: 499px){
+            h1::before{
+                content: "Welcome!";
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Bigger headline</h1>
-    <h2>smaller headline</h2>
+    <h1></h1>
 </body>
 </html>
