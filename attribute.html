@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CS50 Web Development</title>
     <style>
-        input[type="text"] {
+        input[name="firstname"] {
             background-color: red;
         }
-        input[type="number"] {
-            background-color: blue;
+        input[name="lastname"] {
+            background-color: blue;            
+        }
+        input[name="age"] {
+            background-color: green;
         }
     </style>
 </head>
 <body>
     <form>
-        <input name="name" type="text" placeholder="First Name">
-        <input name="name" type="text" placeholder="Last Name">
-        <input name="name" type="number" placeholder="Age">
+        <input name="firstname" type="text" placeholder="First Name">
+        <input name="lastname" type="text" placeholder="Last Name">
+        <input name="age" type="number" placeholder="Age">
     </form>
 </body>
 </html>
